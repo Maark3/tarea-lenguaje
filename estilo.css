@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+
+body{
+    background-color: #1a5353;
+}
+
+header{
+    text-align: center;
+}
+
+#clock{
+    background-color: rgb(107, 36, 36);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* CRONOMETRO */
+
+.chronometer{
+    margin-top: 20px;
+}
+
+#contenedor{
+    display: flex;
+}
+
+
+.h1-first{
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.h1-two{
+    text-align: center;
+}
+
+.reloj{
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fondo{
+    display: flex;
+    position: relative;
+    left: 17em;
+    background-color: #746b5471;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px #81651d71;
+}
+
+.botones{
+    position: relative;
+    top: 5em;
+    right: 5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+    border-radius: 10px;
+    padding: 5px;
+
+    transition: 0.6s;
+    margin: 0 5px;
+    outline: none;
+	border: 1px solid #363431;
+	width: 128px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+
+.boton:hover{
+    color: white;
+    border: 1px solid #1a5353;
+    background-color: #10caca;
+    box-shadow: 1px 1px rgb(51, 160, 142);
+}
+
